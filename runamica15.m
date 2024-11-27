@@ -97,7 +97,7 @@
 function [weights,sphere,mods] = runamica15(dat,varargin)
 
 if ispc
-    binfile = 'amica15mkl.exe'; % on computing
+    binfile = 'amica15win.bat'; % on computing
 elseif ismac
     binfile = 'amica15mac';
 else
